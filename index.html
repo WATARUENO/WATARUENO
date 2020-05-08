@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>WATRUENO.net</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap-grid.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7243260-2']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+      <script type="text/javascript">
+          $(document).ready(function(){
+              $('.slider').bxSlider({
+                  auto: true,
+                  pause: 5000,
+            });
+        });
+      </script>
+
+  </head>
+  <div id="target"></div>
+  <script 
+  src="https://maps.googleapis.com/maps/api/js?language=ja$region=Ja&key=AIzaSyAmFO4nQR-SWR0nf4k4VHHf7Jx-WtNLqbQ&callback=initMap" async defer></script>
+  <script>
+    function initMap(){
+      'use strict';
+      var target = document.getElementById('target');
+      var map;
+      var naruo = {lat: 35.68, lng: 139};
+
+      map = new google.maps.Map(target,{
+          center: tokyo,
+          zoom: 6
+      });
+    }
+    </script>
+  <body>
+    <header>
+    <h1>WATRUENO.net</h1>
+    <ul class="nav-list-item">
+         <li>Photografe ｜</li>
+         <li>Web creation ｜</li>
+         <li>English Translation ｜</li>
+         <li>Movie</li>
+        </ul>
+        </header>
+    <div class="slider">
+<img src="https://source.unsplash.com/user/erondu" width="800" height="600" alt="">
+<img src="https://source.unsplash.com/WLUHO9A_xik" width="800" height="600" alt="">
+<img src="https://source.unsplash.com/user/erondu/daily" width="800" height="600" alt="">
+<img src="https://source.unsplash.com/weekly?water" width="800" height="600" alt="">
+</div>
+    <ul class="colored">
+<li>
+        <h1>Photografe<</h1>
+        <p>"No-one wants to buy clothes to sit at home in," as Next's chief executive Simon Wolfson put it last month.<br>
+The fashion industry has been negatively impacted by the coronavirus outbreak on every imaginable level;
+<br>production has ceased, retailers have closed, demand has plummeted.
+        </p>
+      </li>
+      <li>
+        <img src="https://source.unsplash.com/collection/190727/800x600" width="400" height="300" alt="" />
+
+        <h1>Web creation</h1>
+        <p>"No-one wants to buy clothes to sit at home in," as Next's chief executive Simon Wolfson put it last month.<br>
+The fashion industry has been negatively impacted by the coronavirus outbreak on every imaginable level;
+<br>production has ceased, retailers have closed, demand has plummeted.
+        </p>
+      </li>
+      <li>
+        <img src="https://source.unsplash.com/collection/190727/800x600" width="400" height="300" alt="" />
+
+        <h1>English Translation</h1>
+        <p>日英翻訳サービスのご依頼はこちらから</p>
+      </li>
+      <li>
+        <img src="https://source.unsplash.com/collection/190727/800x600" width="400" height="300" alt="" />
+
+        <h1>Movie</h1>
+        <p>coming soon...</p>
+        <img src="https://source.unsplash.com/collection/190727/800x600" width="400" height="300" alt="" />
+      </li>
+    </ul>
+    <h1>About</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.4267256956164!2d135.36815741493544!3d34.71963668971208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000ede37627540d%3A0xb5e85841c505071!2z6bO05bC-44O75q2m5bqr5bed5aWz5a2Q5aSn5YmN6aeF!5e0!3m2!1sja!2sjp!4v1588754727688!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+   <div id="target"></div>
+    <script 
+    src="https://maps.googleapis.com/maps/api/js?language=ja$region=Ja&key=AIzaSyAmFO4nQR-SWR0nf4k4VHHf7Jx-WtNLqbQ&callback=initMap" async defer></script>
+    <script>
+      function initMap(){
+        'use strict';
+        var target = document.getElementById('target');
+        var map;
+        var naruo = {lat: 35.68, lng: 139};
+
+        map = new google.maps.Map(target,{
+            center: tokyo,
+            zoom: 6
+        });
+      }
+      </script> 
+      
+</body>
+<!-- footer -->
+  <footer>
+　　<ul class="footer-menu">
+     <li>home ｜</li>
+     <li>about ｜</li>
+     <li>service ｜</li>
+     <li>Contact Us</li>
+    </ul>
+    <p>© All rights reserved by WATRUENO.net</p>
+  </footer>
+</html>
